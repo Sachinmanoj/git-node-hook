@@ -1,0 +1,12 @@
+{
+	"window": {
+		"width": 700,
+		"height": 400,
+		"x": 100,
+		"y": 100
+	},
+	"pageConfig": {
+		"button1Text": "Continue Commit",
+		"button2Text": "Quit"
+	}
+}

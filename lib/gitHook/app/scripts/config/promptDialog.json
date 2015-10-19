@@ -1,0 +1,11 @@
+{
+	"window": {
+		"width": 500,
+		"height": 200
+	},
+	"dialog": {
+		"message": "Do you want to run unit test?",
+		"button1Text": "Yes",
+		"button2Text": "No"
+	}
+}
