@@ -1,29 +1,28 @@
 {
-  "name": "git-node-hook",
-  "version": "1.0.0",
-  "description": "Git commit hook to run test for Node applications",
-  "main": "index.js",
-  "scripts": {
-    "test": "cd gitHook && grunt test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Sachinmanoj/git-node-hook.git"
-  },
-  "keywords": [
+	"name": "git-node-hook",
+	"version": "1.0.0",
+	"description": "Git commit hook to run test for Node applications",
+	"main": "index.js",
+	"scripts": {
+		"test": "cd gitHook && grunt test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Sachinmanoj/git-node-hook.git"
+	},
+	"keywords": [
     "gitHook",
     "preCommitHook"
   ],
-  "author": "Manoj",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Sachinmanoj/git-node-hook/issues"
-  },
-  "homepage": "https://github.com/Sachinmanoj/git-node-hook",
-  "dependencies": {
-    "commander": "2.8.1",
-    "nodegit": "^0.5.0",
-    "nw": "0.12.3",
-    "shelljs": "0.5.3"
-  }
+	"author": "Manoj",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Sachinmanoj/git-node-hook/issues"
+	},
+	"homepage": "https://github.com/Sachinmanoj/git-node-hook",
+	"dependencies": {
+		"commander": "2.8.1",
+		"exec-sh": "0.2.0",
+		"nw": "0.12.3"
+	}
 }
