@@ -1,3 +1,34 @@
-<p>
-	nothing
-</p>
+<style>
+	table,
+	td,
+	th {
+		border: 1px solid black;
+	}
+
+	table {
+		width: 100%;
+	}
+
+	th {
+		height: 50px;
+	}
+</style>
+<table>
+	<tr>
+		<th>FileName</th>
+		<th>Coverage</th>
+		<th>Test Failure</th>
+	</tr>
+	<tr ng-repeat="x in results">
+		<td>{{ x.srcFileName }}</td>
+		<td>{{ x.coverage }}</td>
+		<td>{{ x.failedTest }}</td>
+	</tr>
+</table>
+<button style="
+    margin-left: 250px;
+    margin-top: 50px;
+" ng-click="proceedTesting()">{{button_1}}</button>
+<button style="
+    margin-left: 20px;
+" ng-click="exitWithError()">{{button_2}}</button>

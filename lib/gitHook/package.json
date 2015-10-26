@@ -40,7 +40,7 @@
 	"window": {
 		"title": "git node hook",
 		"show": true,
-		"toolbar": true,
+		"toolbar": false,
 		"frame": false,
 		"width": 500,
 		"height": 200
